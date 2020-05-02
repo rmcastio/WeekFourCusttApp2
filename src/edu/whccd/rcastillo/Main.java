@@ -25,9 +25,16 @@ public class Main {
 
 	System.out.println("*************************");
 
-		limit = new currentNumber;
 
-		while 
+		int currentNumber = 0;
+
+		while (currentNumber > limit) {
+			if (currentNumber % 2 == 1) {
+				System.out.println(currentNumber);
+				currentNumber--;
+			}
+		}
+
 
 	}
 
